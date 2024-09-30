@@ -1,0 +1,18 @@
+3 Si un número X es primo.
+
+Inicio
+    Escribe "Introduce un numero"
+    Lee X
+
+    Si (X <= 1) entonces
+        Escribe "El numero no es primo"
+    Sino
+        contador = 0
+        Para divisor en (1...X) hacer
+            Si (X % divisor == 0) entonces
+                contador = contador + 1
+        Si (contador == 2) entonces
+            Escribe "El numero es primo"
+        Sino
+            Escribe "El numero no es primo"
+Fin

@@ -1,0 +1,8 @@
+2 La tabla del número X desde el 1 hasta el 10
+
+Inicio
+    Escribe "¿Que tabla de multiplicar quieres?:"
+    Lee X
+    Para tabla en (1...10) hacer
+        Escribe X + " * " + tabla + " = " + (X * tabla)
+Fin
